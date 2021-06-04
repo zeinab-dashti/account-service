@@ -1,0 +1,8 @@
+/.idea/
+/account-service/target/
+/account-service/account-service.iml
+/core/target/
+/core/core.iml
+/transaction-service/target/
+/transaction-service/transaction-service.iml
+/bank.iml
