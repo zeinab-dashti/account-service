@@ -38,7 +38,7 @@ Once the account service is up and running, you can find Swagger UI at ```http:/
 
 ## Improvement ideas
 **Security**:
-Since transaction service is not designed to be publicly exposed, it should be deployed in a private network safeguarded 
+since transaction service is not designed to be publicly exposed, it should be deployed in a private network safeguarded 
 by firewall, and also we should apply strict authentication (for example mTLS) between account service and transaction 
 service. 
 
