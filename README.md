@@ -28,7 +28,8 @@ You need to have Maven installed on your machine.
    ```
    
 4. Run tests and start account service (from the parent module directory). This will run the tests (against 
-a [predefined test data set]() on H2 database) and starts account RESTful API on **port 8080** only if tests are passed.
+a [predefined test data set](https://github.com/zeinab-dashti/account-service/blob/main/transaction-service/src/main/resources/data.sql) 
+on H2 database) and starts account RESTful API on **port 8080** only if tests are passed.
    ```sh
    mvn -f account-service/pom.xml test && mvn -f account-service/pom.xml spring-boot:run
    ```
